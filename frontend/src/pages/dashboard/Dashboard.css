@@ -1,0 +1,21 @@
+.dashboard {
+  margin: 20px;
+  animation: fadeIn linear 1s;
+  background-color: rgba(34, 34, 34, 0.853);
+  padding: 20px;
+  border-radius: 5px;
+  color: #efefef;
+}
+
+.dashboard__link {
+  color: #efefef;
+  transition: 0.3s;
+}
+
+.dashboard__link:hover {
+  color: #85c27d;
+}
+
+.dashboard__header {
+  margin: 0;
+}

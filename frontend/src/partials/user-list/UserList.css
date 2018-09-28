@@ -1,0 +1,14 @@
+.user-list {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.user-list__head th{
+  border-bottom: solid 2px #efefef;
+}
+
+.user-list__action {
+  color: #efefef;
+  margin-right: 3px;
+}

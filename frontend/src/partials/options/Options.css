@@ -1,0 +1,8 @@
+.options {
+  margin: 10px 0;
+  font-size: .8em;
+}
+.options__option {
+  display: inline-block;
+  margin-right: 10px;
+}

@@ -1,0 +1,55 @@
+.home {
+  margin: 100px auto;
+  text-align: center;
+  background-color: rgba(30, 108, 128, 0.5);
+  color: #efefef;
+  max-width: 800px;
+  padding: 100px 20px;
+  box-sizing: border-box;
+  animation: fadeIn linear 1s;
+  border-radius: 5px;
+}
+
+.home__title {
+  margin: 0 0 20px 0;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.home__slogan {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.home__link {
+  color: #efefef;
+  transition: 0.3s;
+}
+
+.home__link:hover {
+  color: #222;
+}
+
+.home__button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  font-size: 1em;
+  border: solid 2px #efefef;
+  color: #e1e1e1;
+  background-color: transparent;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home__button:last-child {
+  margin-bottom: 0;
+}
+
+.home__button:hover {
+  background-color: #efefef;
+  color: rgba(13, 46, 54, 0.5);
+}

@@ -1,0 +1,88 @@
+.App__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./img/surf.jpeg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  animation: blur linear 1s;
+}
+
+/* FORMS */
+.form__submit {
+  font-size: 1.3em;
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #9cc49c;
+  color: #222;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form__submit:hover {
+  background-color: #cae7ca;
+}
+
+.form__submit:disabled {
+  background-color: #a6a6a6;
+  color: #555;
+}
+
+.textfield {
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.textfield__input {
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.3em;
+  box-sizing: border-box;
+}
+
+.textfield__input--error {
+  background-color: #e7b7b7;
+}
+
+.textfield__error {
+  display: block;
+  font-size: 0.8em;
+  text-align: left;
+  color: #ad5555;
+}
+
+.form__checkbox {
+  display: block;
+  text-align: left;
+  color: #efefef;
+}
+
+/* ANIMATIONS */
+
+@keyframes blur {
+  from {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+  to {
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

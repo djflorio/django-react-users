@@ -1,0 +1,22 @@
+.top-nav {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(34, 34, 34, 0.853);
+  border-radius: 5px;
+}
+
+.top-nav__link {
+  text-decoration: none;
+  color: #efefef;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.top-nav__link:last-child {
+  margin-right: 0;
+}
+
+.top-nav__link:hover {
+  color: #85c27d;
+}

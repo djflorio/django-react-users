@@ -1,0 +1,19 @@
+.admin-edit {
+  margin: 100px auto;
+  text-align: center;
+  animation: fadeIn linear 1s;
+  background-color: rgba(34, 34, 34, 0.853);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+.admin-edit__back {
+  display: block;
+  text-align: left;
+  color: #efefef;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}

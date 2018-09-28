@@ -1,0 +1,33 @@
+.admin-home {
+  margin: 20px;
+  animation: fadeIn linear 1s;
+  background-color: rgba(34, 34, 34, 0.853);
+  padding: 20px;
+  border-radius: 5px;
+  color: #efefef;
+}
+
+.admin-home__header {
+  margin: 0 0 20px 0;
+}
+
+.admin-home__link {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 20px;
+}
+
+.admin-home__add {
+  display: inline-block;
+  text-decoration: none;
+  color: #efefef;
+  background-color: #85c27d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.admin-home__add:hover {
+  background-color: #679e60;
+}
